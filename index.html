@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="cn.css">
+    <script src="./change.js"></script>
+</head>
+<body>
+    <div class="container">
+        <button  onclick="Change()"  id="change">change the them</button>
+    </div>
+  
+     <center><span class="md">Currency Converter</span></center>
+      <br>
+      <br>
+      <br>
+     <div class="logic" bg-color="white">
+        <form action="" method="get" style="background-color:white ;">
+            <label for="currnecy" style="background-color:white ;">choose Currency</label>
+            <br>
+            <select name="curr" id="choose" style="background-color:white ;" margin-left="20px">
+                <option value="dollor to INR" bg-color="white"  id="todollar" style="color:green;background-color: burlywood;">Dollar to INR</option>
+                <option value="INR to DOLLAR" bg-color="white" id="toinr" style="color:green;background-color: burlywood;" >INR to DOLLAR</option>
+            </select>
+            &nbsp; &nbsp; <label for="" style="background-color:cyan;">Enter Amount</label> <input type="text" id="amount" placeholder="Enter the Amount" required="first enter" title="the current value of the dollar is considered 82.03">
+            <br>
+            <label for="" style="margin-left: 50px;background-color: cyan;"> Result </label><input type="text" placeholder="click on the convert to see the result" id="show" readonly style="padding: 2px;">
+         </form>
+     </div>
+    <div class="btn">
+        <button  class="btne-text" onclick="calculate()">Convert</button>
+    </div>
+    <div class="image" >
+        <div class="txt" >
+        <img class="img1" src="./=mypic" alt="this is owner image" height="200px" width="150px">
+        </div>
+        <p class="about">Gaurav Yadav</p>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0PX;
+    background: black;
+    
+}
+.container{
+    background-attachment: fixed;
+    text-align: center;
+    
+    background-color:aqua;
+    padding: 20px;
+    margin-block: 10px;
+    
+    
+
+}
+
+#change{
+    font-size:20px;
+    background-color: yellow;
+}
+  
+
+h1{
+    
+    
+    color: red;
+    background-color: aqua;
+   
+
+}
+.md{
+    background-color:red;
+
+    text-align:center;
+    font-size: 26px;
+    z-index: -1;
+    opacity: .9;
+    box-shadow: 10px 10px 5px green;
+    zoom: 2px;
+   
+}
+.md:hover{
+    background-color: antiquewhite;
+    transform: scale(1.5);
+    
+}
+
+span{
+
+    background-color: blue;
+}
+
+
+
+input, textarea {
+    background-color: #d1d1d1;
+  }
+  
+.inpt{
+    margin-top: 30px;
+    
+}
+.btn{
+    text-align: center;
+    margin-top: 25px;
+    
+}
+.btne-text{
+    font-size:25px;
+    background-color: darkcyan;
+    color:pink;
+    border-top: 5px solid green;
+    box-shadow: 10px 10px 5px blue;
+    transition: cubic-bezier(1, 0, 0, 1);
+    -webkit-transition: cubic-bezier(1, 0, 0, 1);
+    -moz-transition: cubic-bezier(1, 0, 0, 1);
+    -ms-transition: cubic-bezier(1, 0, 0, 1);
+    -o-transition: cubic-bezier(1, 0, 0, 1);
+}
+.btne-text:hover{
+    transform: scale(1.5);
+   
+}
+.image{
+
+    align-items: center;
+    margin-top: 30px;
+
+    
+}
+.txt{
+   display: block;
+   padding-top: 10px;
+   margin-top:10pxpx;
+   background-color:silver;
+   margin-left:auto;
+   margin-right: auto;
+   width: 30vh;
+   display: block;
+   border: 2px skyblue solid;
+   box-shadow: 10px 5px 15px red;
+   box-shadow: #d1d1d1;
+
+}
+.txt:hover{
+    box-shadow: 10px 10px 10px green;
+    
+}
+.img1{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    box-shadow: 11px 10px 5px yellow;
+   
+    
+}
+.img1:hover{
+    box-shadow: 11px 10px 5px black;
+}
+
+.about{
+    padding-top:25px;
+    padding: auto;
+    margin: auto;
+    color: green;
+    text-align: center;
+    font-size: 25px;
+}
